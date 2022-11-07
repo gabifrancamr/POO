@@ -14,6 +14,8 @@ class House extends Property {}
 const land = new Property(200, 50000);
 const someHouse = new House(120, 200000);
 
+console.log(someHouse.getPricePerSquareMeter())
+
 console.log(land);
 console.log(someHouse);
 console.log(someHouse instanceof Property);
