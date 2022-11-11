@@ -6,6 +6,7 @@ class Reservation {
         this.room = room
         this.days = days
         this.total = days * Reservation.baseFee
+        this.premium = days * Reservation.premiumFee
     }
 
     static baseFee = 150
