@@ -1,3 +1,6 @@
+//com o acessador get podemos modificar a forma como uma propriedade é lida
+//com o acessador set podemos modificar a forma como uma propriedade é alterada via atribuição
+
 class Wallet {
   #amaunt;
   #username;
