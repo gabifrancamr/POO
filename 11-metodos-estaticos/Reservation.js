@@ -21,6 +21,7 @@ class Reservation {
 }
 
 Reservation.showBaseFee()
+console.log(`Premium fee é $${Reservation.premiumFee}`)
 
 const r1 = new Reservation(3, '201', 5)
 console.log(r1)
