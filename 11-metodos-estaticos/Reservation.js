@@ -1,3 +1,5 @@
+//são atributos e métodos definidos em uma classe que não dependem de uma instância pra serem utilizados. São acessados diretamente por uma classe ao invés de por uma instância
+
 class Reservation {
     constructor(quests, room, days) {
         this.quests = quests
